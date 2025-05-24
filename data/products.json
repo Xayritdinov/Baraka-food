@@ -1,0 +1,470 @@
+{
+    "categories": {
+        "vegetables": {
+            "name": "Овощи",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Баклажаны, 1 кг",
+                    "price": 10000,
+                    "image": "../images/products/vegetables/aubergine.jpg",
+                    "description": "Свежие баклажаны",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Капуста, 1 кг",
+                    "price": 3000,
+                    "image": "../images/products/vegetables/cabbage.jpg",
+                    "description": "Свежая капуста",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Морковь, 1 кг",
+                    "price": 5000,
+                    "image": "../images/products/vegetables/carrot.jpg",
+                    "description": "Свежая морковь",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Огурцы, 1 кг",
+                    "price": 15000,
+                    "image": "../images/products/vegetables/cucumber.jpg",
+                    "description": "Свежие огурцы",
+                    "stock": 100
+                },
+                {
+                    "id": 5,
+                    "name": "Помидоры, 1 кг",
+                    "price": 15000,
+                    "image": "../images/products/vegetables/tomato.jpg",
+                    "description": "Свежие помидоры",
+                    "stock": 100
+                },
+                {
+                    "id": 6,
+                    "name": "Укроп, 1 п",
+                    "price": 4000,
+                    "image": "../images/products/vegetables/dill.jpg",
+                    "description": "Свежий укроп",
+                    "stock": 100
+                },
+                {
+                    "id": 7,
+                    "name": "Чеснок, 1 кг",
+                    "price": 40000,
+                    "image": "../images/products/vegetables/garlic.jpg",
+                    "description": "Свежий чеснок",
+                    "stock": 100
+                }
+            ]
+        },
+        "fruits": {
+            "name": "Фрукты",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Авокадо, 1 шт",
+                    "price": 5000,
+                    "image": "../images/products/fruits/avocado.jpg",
+                    "description": "Питательный фрукт с маслянистой мякотью и нежным вкусомой",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Ананас, 1 шт",
+                    "price": 25000,
+                    "image": "../images/products/fruits/pineapple.jpg",
+                    "description": "Сочный тропический фрукт с ярко-жёлтой мякотью и сладко-кислым вкусом",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Гранат, 1 кг",
+                    "price": 20000,
+                    "image": "../images/products/fruits/pomegranate.jpg",
+                    "description": "Фрукт с плотной кожурой и сочными кисло-сладкими зёрнами внутри",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Грейпфрут, 1 кг",
+                    "price": 35000,
+                    "image": "../images/products/fruits/grapefruit.jpg",
+                    "description": "Крупный цитрусовый фрукт с горько-кислым вкусом и сочной мякотью",
+                    "stock": 100
+                },
+                {
+                    "id": 5,
+                    "name": "Груша, 1 кг",
+                    "price": 17000,
+                    "image": "../images/products/fruits/pear.jpg",
+                    "description": "Сладкий и сочный фрукт с мягкой зернистой текстурой",
+                    "stock": 100
+                },
+                {
+                    "id": 6,
+                    "name": "Персик, 1 кг",
+                    "price": 27000,
+                    "image": "../images/products/fruits/peach.jpg",
+                    "description": "Ароматный фрукт с бархатистой кожурой и нежной сладкой мякотью",
+                    "stock": 100
+                }
+            ]
+        },
+        "fish": {
+            "name": "Рыба",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Дорадо, 1 кг",
+                    "price": 100000,
+                    "image": "../images/products/fish/dorado.jpg",
+                    "description": "Морская рыба с нежным белым мясом и насыщенным вкусом",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Сельдь, 1 кг",
+                    "price": 80000,
+                    "image": "../images/products/fish/herring.jpg",
+                    "description": "Жирная рыба с ярким вкусом, часто используемая в засолке",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Скумбрия, 1 кг",
+                    "price": 90000,
+                    "image": "../images/products/fish/mackerel.jpg",
+                    "description": "Питательная морская рыба с плотной и сочной мякотью",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Горбуша, 1 кг",
+                    "price": 120000,
+                    "image": "../images/products/fish/pink_salmon.jpg",
+                    "description": "Красная рыба с нежным вкусом и умеренной жирностью",
+                    "stock": 100
+                }
+            ]
+        },
+        "meat": {
+            "name": "Мясо",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Фарш говяжий, 1 кг",
+                    "price": 90000,
+                    "image": "../images/products/meat/ground_meat.jpg",
+                    "description": "Измельчённое говяжье мясо, используемое для приготовления котлет, тефтелей и других блюд",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Говядина, 1 кг",
+                    "price": 120000,
+                    "image": "../images/products/meat/beef.jpg",
+                    "description": "Красное мясо с насыщенным вкусом, популярное для жарки и тушения",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Курица, 1 кг",
+                    "price": 50000,
+                    "image": "../images/products/meat/chicken.jpg",
+                    "description": "Диетическое белое мясо, богатое белком и универсальное в приготовлении",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Стейк говяжий, 1 кг",
+                    "price": 150000,
+                    "image": "../images/products/meat/steak.jpg",
+                    "description": "Толстый кусок говяжьего мяса для приготовления стейка",
+                    "stock": 100
+                }
+            ]
+        },
+        "dairy": {
+            "name": "Молочные продукты",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Масло сливочное, 1 кг",
+                    "price": 100000,
+                    "image": "../images/products/dairy/butter.jpg",
+                    "description": "Натуральный молочный продукт с нежным вкусом, используется для выпечки и кулинарии",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Молоко, 1 л",
+                    "price": 12000,
+                    "image": "../images/products/dairy/milk.jpg",
+                    "description": "Питательный напиток, богатый кальцием и полезными веществами",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Моцарелла, 1 кг",
+                    "price": 120000,
+                    "image": "../images/products/dairy/mozzarella.jpg",
+                    "description": "Мягкий итальянский сыр с нежной текстурой и молочным вкусом",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Сыр Эстонский, 1 кг",
+                    "price": 110000,
+                    "image": "../images/products/dairy/cheese.jpg",
+                    "description": "Молочный продукт, имеющий множество видов с разными вкусами и текстурами",
+                    "stock": 100
+                },
+                {
+                    "id": 5,
+                    "name": "Творог, 1 кг",
+                    "price": 60000,
+                    "image": "../images/products/dairy/cottage_cheese.jpg",
+                    "description": "Зернистый молочный продукт, богатый белком и кальцием",
+                    "stock": 100
+                }
+            ]
+        },
+        "bakery": {
+            "name": "Выпечка",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Багет с кунжутом, 350 г",
+                    "price": 15000,
+                    "image": "../images/products/bakery/baguette.jpg",
+                    "description": "Багет, на фруктово-ягодной закваске с кунжутом, 350 г",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Батон, 330 г",
+                    "price": 10000,
+                    "image": "../images/products/bakery/loaf.jpg",
+                    "description": "Батон вытянутый, воздушный, с румяной корочкой и насыщенным ароматом, 330 г",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Бублики с маком, 300 г",
+                    "price": 8000,
+                    "image": "../images/products/bakery/bagels.jpg",
+                    "description": "Большые, мягкие бублики с маком, 300 г",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Булка с вишней, 420 г",
+                    "price": 20000,
+                    "image": "../images/products/bakery/bun.jpg",
+                    "description": "Большая булка с ничнкой из цельной вишни, 420 г",
+                    "stock": 100
+                },
+                {
+                    "id": 5,
+                    "name": "Сливочный круассан, 80 г",
+                    "price": 5000,
+                    "image": "../images/products/bakery/croissant.jpg",
+                    "description": "Круассанан на сливочном масле, 80 г",
+                    "stock": 100
+                },
+                {
+                    "id": 6,
+                    "name": "Хлеб Скандинавский, 330 г",
+                    "price": 7000,
+                    "image": "../images/products/bakery/bread.jpg",
+                    "description": "Скандинавский ржаной хлеб, круглый, 330 г",
+                    "stock": 100
+                }
+            ]
+        },
+        "drinks": {
+            "name": "Напитки",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Сок ананасовый, 1 л",
+                    "price": 30000,
+                    "image": "../images/products/drinks/pineapple_juice.jpg",
+                    "description": "100% натуральный ананасовый сок",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Сок апельсиновый, 1 л",
+                    "price": 30000,
+                    "image": "../images/products/drinks/orange_juice.jpg",
+                    "description": "100% натуральный апельсиновый сок",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Сок банановый, 1 л",
+                    "price": 30000,
+                    "image": "../images/products/drinks/banana_juice.jpg",
+                    "description": "100% натуральный банановый сок",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Сок гранатовый, 1 л",
+                    "price": 30000,
+                    "image": "../images/products/drinks/pomegranate_juice.jpg",
+                    "description": "100% натуральный гранатовый сок",
+                    "stock": 100
+                },
+                {
+                    "id": 5,
+                    "name": "Сок грейпфрут, 1 л",
+                    "price": 30000,
+                    "image": "../images/products/drinks/grapefruit_juice.jpg",
+                    "description": "100% натуральный грейпфрутовый сок",
+                    "stock": 100
+                },
+                {
+                    "id": 6,
+                    "name": "Сок яблочный, 1 л",
+                    "price": 30000,
+                    "image": "../images/products/drinks/apple_juice.jpg",
+                    "description": "100% натуральный яблочный сок",
+                    "stock": 100
+                }
+            ]
+        },
+        "nuts": {
+            "name": "Орехи",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Грецкий орех, 1 кг",
+                    "price": 70000,
+                    "image": "../images/products/nuts/walnut.jpg",
+                    "description": "Питательный орех с характерной морщинистой оболочкой и насыщенным вкусом",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Кешью, 1 кг",
+                    "price": 160000,
+                    "image": "../images/products/nuts/cashew.jpg",
+                    "description": "Нежный орех с мягким сладковатым вкусом и кремовой текстурой",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Миндаль, 1 кг",
+                    "price": 150000,
+                    "image": "../images/products/nuts/almond.jpg",
+                    "description": "Ароматный орех с плотной текстурой и лёгкой ореховой горчинкой",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Фисташки, 1 кг",
+                    "price": 130000,
+                    "image": "../images/products/nuts/pistachios.jpg",
+                    "description": "Небольшие зелёные орехи с мягким вкусом и лёгкой солоноватостью",
+                    "stock": 100
+                },
+                {
+                    "id": 5,
+                    "name": "Фундук, 1 кг",
+                    "price": 170000,
+                    "image": "../images/products/nuts/hazelnut.jpg",
+                    "description": "Круглый орех с насыщенным вкусом и хрустящей текстурой",
+                    "stock": 100
+                }
+            ]
+        },
+        "grains": {
+            "name": "Крупы",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Гречка, 1 кг",
+                    "price": 40000,
+                    "image": "../images/products/cereals/buckwheat.jpg",
+                    "description": "Питательная крупа с ореховым вкусом, богатая белком и полезными веществами",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Манка, 1 кг",
+                    "price": 30000,
+                    "image": "../images/products/cereals/semolina.jpg",
+                    "description": "Мелкая крупа из пшеницы, используется для каш и выпечки",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Овсянка, 1 кг",
+                    "price": 20000,
+                    "image": "../images/products/cereals/oatmeal.jpg",
+                    "description": "Полезная крупа, из которой готовят каши и мюсли",
+                    "stock": 100
+                },
+                {
+                    "id": 4,
+                    "name": "Перловка, 1 кг",
+                    "price": 25000,
+                    "image": "../images/products/cereals/pearl_barley.jpg",
+                    "description": "Крупа из ячменя с плотной текстурой и насыщенным вкусом",
+                    "stock": 100
+                },
+                {
+                    "id": 5,
+                    "name": "Рис, 1 кг",
+                    "price": 20000,
+                    "image": "../images/products/cereals/rice.jpg",
+                    "description": "Универсальная крупа, бывает разных видов, используется в различных блюдах",
+                    "stock": 100
+                },
+                {
+                    "id": 6,
+                    "name": "Чечевица, 1 кг",
+                    "price": 35000,
+                    "image": "../images/products/cereals/lentils.jpg",
+                    "description": "Белковая крупа с нежным вкусом, популярна в супах и гарнирах",
+                    "stock": 100
+                }
+            ]
+        },
+        "household": {
+            "name": "Товары для дома",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Корзина плетеная, с ручкой",
+                    "price": 50000,
+                    "image": "../images/products/home/basket1.jpg",
+                    "description": "Корзина плетеная с ручкой",
+                    "stock": 100
+                },
+                {
+                    "id": 2,
+                    "name": "Корзина плетеная, с ручкой",
+                    "price": 60000,
+                    "image": "../images/products/home/basket2.jpg",
+                    "description": "Корзина плетеная с ручкой и крышкой, для похода на пикник",
+                    "stock": 100
+                },
+                {
+                    "id": 3,
+                    "name": "Корзина плетеная",
+                    "price": 40000,
+                    "image": "../images/products/home/basket3.jpg",
+                    "description": "Корзина плетеная",
+                    "stock": 100
+                }
+            ]
+        }
+    }
+}

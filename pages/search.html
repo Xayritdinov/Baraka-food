@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск — Baraka Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cards.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+
+            <div class="header-top">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link" href="./catalog-all.html">Каталог</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./about.html">О компании</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacts.html">Контакты</a></li>
+                        <li class="nav-item"><a class="nav-link " href="./delivery.html">Доставка</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./payment.html">Оплата</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./dashboard.html">Личный кабинет</a></li>
+                    </ul>
+                </nav>
+                <div class="header-top-right">
+                    <span class="delivery-time">Доставка с 8:00 до 23:00</span>
+                    <a href="#" class="phone">+998 97 400 57 08</a>
+                    <ul class="language-switcher">
+                        <li class="language-switcher-item"><a href="#" class="language">UZ</a></li>
+                        <li class="language-switcher-item"><a href="#" class="language is-active">RU</a></li>
+                        <li class="language-switcher-item"><a href="#" class="language last">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-bar">
+                <div class="header-bar-left">
+                    <a class="header-bar-logo" href="/">
+                        <img src="../images/icons/logo.png" alt="Logo" class="logo-image">
+                    </a>
+                </div>
+                <div class="header-bar-centre">
+                    <div class="catalog-menu-wrapper">
+                        <button id="menuButton" class="menu-catalog">
+                            <span class="menu-catalog-line">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </span>
+                            <span class="menu-catalog-title">Каталог</span>
+                        </button>
+                        <ul id="catalogMenu" class="catalog-menu">
+                            <li class="catalog-item"><a href="./vegetables.html?category=vegetables">Овощи</a></li>
+                            <li class="catalog-item"><a href="./fruits.html?category=fruits">Фрукты</a></li>
+                            <li class="catalog-item"><a href="./fish.html?category=fish">Рыба</a></li>
+                            <li class="catalog-item"><a href="./meat.html?category=meat">Мясо</a></li>
+                            <li class="catalog-item"><a href="./dairy.html?category=dairy">Молочные продукты</a></li>
+                            <li class="catalog-item"><a href="./bakery.html?category=bakery">Выпечка</a></li>
+                            <li class="catalog-item"><a href="./drinks.html?category=drinks">Напитки</a></li>
+                            <li class="catalog-item"><a href="./nuts.html?category=nuts">Орехи</a></li>
+                            <li class="catalog-item"><a href="./grains.html?category=grains">Крупы</a></li>
+                            <li class="catalog-item"><a href="./household.html?category=household">Товары для дома</a></li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <input id="searchInput" class="search-input" type="text" placeholder="Поиск товара">
+                        <a class="search-btn" href="./search.html">
+                            <img id="searchBtn" src="../images/icons/icon-search.png" alt="search" class="search-icon"
+                                style="cursor:pointer;">
+                        </a>
+                    </div>
+                </div>
+                <div class="header-bar-right">
+                    <a class="header-bar-icon" href="./dashboard.html">
+                        <img src="../images/icons/icon-profile.png" alt="profile" class="icon-img">
+                    </a>
+                    <a class="header-bar-icon" href="./cart.html" style="position: relative;">
+                        <img src="../images/icons/icon-cart.png" alt="cart" class="icon-img">
+                        <span id="cart-count" style="
+                        position: absolute;
+                        top: -5px;
+                        right: -10px;
+                        background-color: red;
+                        color: white;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        font-size: 12px;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        ">0</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <h1>Поиск</h1>
+            <div class="cards" id="search-results"></div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="../images/icons/logo2.png" alt="Логотип" class="footer-logo">
+                <p class="footer-phrase">Ваши лучшие продукты каждый день!</p>
+            </div>
+            <div class="footer-center">
+                <p>Адрес: г. Ташкент 100084,<br>проспект Амира Темура 108</p>
+                <p>Телефон: +998 97 400 57 08</p>
+            </div>
+            <div class="footer-right">
+                <p>Мы в социальных сетях:</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="../images/icons/icon-instagram.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://www.telegram.org" target="_blank">
+                        <img src="../images/icons/icon-telegram.png" alt="Telegram" class="social-icon">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="../images/icons/icon-facebook.png" alt="Facebook" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="productModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modalImage" src="" alt="Товар">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+            <p><strong>Цена:</strong> <span id="modalPrice"></span> сум</p>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

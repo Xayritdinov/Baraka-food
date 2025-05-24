@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baraka Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+
+            <div class="header-top">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link" href="./pages/catalog-all.html">Каталог</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/about.html">О компании</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacts.html">Контакты</a></li>
+                        <li class="nav-item"><a class="nav-link " href="./pages/delivery.html">Доставка</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/payment.html">Оплата</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/dashboard.html">Личный кабинет</a></li>
+                    </ul>
+                </nav>
+                <div class="header-top-right">
+                    <span class="delivery-time">Доставка с 8:00 до 23:00</span>
+                    <a href="#" class="phone">+998 97 400 57 08</a>
+                    <ul class="language-switcher">
+                        <li class="language-switcher-item"><a href="#" class="language">UZ</a></li>
+                        <li class="language-switcher-item"><a href="#" class="language is-active">RU</a></li>
+                        <li class="language-switcher-item"><a href="#" class="language last">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-bar">
+                <div class="header-bar-left">
+                    <a class="header-bar-logo" href="/">
+                        <img src="./images/icons/logo.png" alt="Logo" class="logo-image">
+                    </a>
+                </div>
+                <div class="header-bar-centre">
+                    <div class="catalog-menu-wrapper">
+                        <button id="menuButton" class="menu-catalog">
+                            <span class="menu-catalog-line">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </span>
+                            <span class="menu-catalog-title">Каталог</span>
+                        </button>
+                        <ul id="catalogMenu" class="catalog-menu">
+                            <li class="catalog-item"><a href="./pages/vegetables.html?category=vegetables">Овощи</a>
+                            </li>
+                            <li class="catalog-item"><a href="./pages/fruits.html?category=fruits">Фрукты</a></li>
+                            <li class="catalog-item"><a href="./pages/fish.html?category=fish">Рыба</a></li>
+                            <li class="catalog-item"><a href="./pages/meat.html?category=meat">Мясо</a></li>
+                            <li class="catalog-item"><a href="./pages/dairy.html?category=dairy">Молочные продукты</a>
+                            </li>
+                            <li class="catalog-item"><a href="./pages/bakery.html?category=bakery">Выпечка</a></li>
+                            <li class="catalog-item"><a href="./pages/drinks.html?category=drinks">Напитки</a></li>
+                            <li class="catalog-item"><a href="./pages/nuts.html?category=nuts">Орехи</a></li>
+                            <li class="catalog-item"><a href="./pages/grains.html?category=grains">Крупы</a></li>
+                            <li class="catalog-item"><a href="./pages/household.html?category=household">Товары для
+                                    дома</a></li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <input id="searchInput" class="search-input" type="text" placeholder="Поиск товара">
+                        <a class="search-btn" href="./pages/search.html">
+                            <img id="searchBtn" src="./images/icons/icon-search.png" alt="search" class="search-icon"
+                                style="cursor:pointer;">
+                        </a>
+                    </div>
+                </div>
+                <div class="header-bar-right">
+                    <a class="header-bar-icon" href="./pages/dashboard.html">
+                        <img src="./images/icons/icon-profile.png" alt="profile" class="icon-img">
+                    </a>
+                    <a class="header-bar-icon" href="./pages/cart.html" style="position: relative;">
+                        <img src="./images/icons/icon-cart.png" alt="cart" class="icon-img">
+                        <span id="cart-count" style="
+                        position: absolute;
+                        top: -5px;
+                        right: -10px;
+                        background-color: red;
+                        color: white;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        font-size: 12px;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        ">0</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+
+            <section class="promo-sliders">
+                <div class="slider-container">
+                    <div class="slider promo-slider-track">
+                        <div class="promo-slider">
+                            <img class="promo-slider-image" src="./images/slider_1.jpg" alt="Slider_1">
+                            <span class="promo-slider-title">Премиум продукты высокого качества</span>
+                        </div>
+                        <div class="promo-slider">
+                            <img class="promo-slider-image" src="./images/slider_2.jpg" alt="Slider_2">
+                            <span class="promo-slider-title">Свежесть от фермеров — каждый день</span>
+                        </div>
+                        <div class="promo-slider">
+                            <img class="promo-slider-image" src="./images/slider_3.jpg" alt="Slider_3">
+                            <span class="promo-slider-title">Только отборные продукты на вашем столе</span>
+                        </div>
+                        <div class="promo-slider">
+                            <img class="promo-slider-image" src="./images/slider_4.jpg" alt="Slider_4">
+                            <span class="promo-slider-title">Натуральные вкусы для всей семьи</span>
+                        </div>
+                    </div>
+                    <button class="slider-btn prev-slide">&#10094;</button>
+                    <button class="slider-btn next-slide">&#10095;</button>
+                </div>
+            </section>
+
+            <section class="advantages-section">
+                <h2 class="advantages-title">Наши плюсы</h2>
+                <div class="advantages-list">
+                    <div class="advantage-item">
+                        <img src="./images/icons/assortment.svg" alt="assortment" class="advantage-icon">
+                        <h3>Широкий ассортимент</h3>
+                        <p>Мы закупаем фрукты и овощи по всему миру – от Эквадора до Китая. Более 400 сортов овощей и
+                            фруктов представлены на наших прилавках.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <img src="./images/icons/fresh.svg" alt="fresh" class="advantage-icon">
+                        <h3>Свежие продукты</h3>
+                        <p>Фрукты и овощи перевозятся в машинах-рефрижераторах с разными режимами температуры. Мы знаем,
+                            сколько градусов внутри каждого плода!</p>
+                    </div>
+                    <div class="advantage-item">
+                        <img src="./images/icons/price.png" alt="price" class="advantage-icon">
+                        <h3>Лучшие цены</h3>
+                        <p>Конкурентные цены и регулярные акции для наших клиентов.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <img src="./images/icons/quality.svg" alt="quality" class="advantage-icon">
+                        <h3>Контроль качества</h3>
+                        <p>Мы контролируем качество – от поставщика до полки. Для хранения мы используем самое
+                            современное оборудование.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="brands-section">
+                <h2 class="brands-title">Наши партнёры</h2>
+                <div class="slider-container brands-slider-container">
+                    <div class="slider brands-slider-track">
+                        <div class="brand-slide"><img src="./images/brands/365kun.png" alt="365kun"></div>
+                        <div class="brand-slide"><img src="./images/brands/bliss.png" alt="bliss"></div>
+                        <div class="brand-slide"><img src="./images/brands/bonduelle.png" alt="bonduelle"></div>
+                        <div class="brand-slide"><img src="./images/brands/cocacola.png" alt="cocacola"></div>
+                        <div class="brand-slide"><img src="./images/brands/maheev.png" alt="maheev"></div>
+                        <div class="brand-slide"><img src="./images/brands/makfa.png" alt="makfa"></div>
+                        <div class="brand-slide"><img src="./images/brands/pepsi.png" alt="pepsi"></div>
+                        <div class="brand-slide"><img src="./images/brands/rollton.png" alt="rollton"></div>
+                        <div class="brand-slide"><img src="./images/brands/ryaba.png" alt="ryaba"></div>
+                        <div class="brand-slide"><img src="./images/brands/zateya.png" alt="zateya"></div>
+                        <div class="brand-slide"><img src="./images/brands/365kun.png" alt="365kun"></div>
+                        <div class="brand-slide"><img src="./images/brands/bliss.png" alt="bliss"></div>
+                        <div class="brand-slide"><img src="./images/brands/bonduelle.png" alt="bonduelle"></div>
+                        <div class="brand-slide"><img src="./images/brands/cocacola.png" alt="cocacola"></div>
+                        <div class="brand-slide"><img src="./images/brands/maheev.png" alt="maheev"></div>
+                        <div class="brand-slide"><img src="./images/brands/makfa.png" alt="makfa"></div>
+                        <div class="brand-slide"><img src="./images/brands/pepsi.png" alt="pepsi"></div>
+                        <div class="brand-slide"><img src="./images/brands/rollton.png" alt="rollton"></div>
+                        <div class="brand-slide"><img src="./images/brands/ryaba.png" alt="ryaba"></div>
+                        <div class="brand-slide"><img src="./images/brands/zateya.png" alt="zateya"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="actions-section">
+                <h2 class="actions-title">Акции</h2>
+                <div class="actions-container">
+                    <div class="action-card">
+                        <img src="./images/milk.jpg" alt="Скидка 20% на молочные продукты">
+                        <div class="action-content">
+                            <h3>Скидка 20% на молочные продукты</h3>
+                            <p>Только до конца месяца! Пополните запасы молока, сыра и йогуртов со скидкой.</p>
+                        </div>
+                    </div>
+                    <div class="action-card">
+                        <img src="./images/drinks.jpeg" alt="1+1 на напитки">
+                        <div class="action-content">
+                            <h3>1+1 на напитки</h3>
+                            <p>Покупайте один напиток и получайте второй в подарок. Участвуют газировка и соки.</p>
+                        </div>
+                    </div>
+                    <div class="action-card">
+                        <img src="./images/sweets.jpg" alt="Сладости со скидкой 15%">
+                        <div class="action-content">
+                            <h3>Сладости со скидкой 15%</h3>
+                            <p>Порадуйте себя и близких вкусными конфетами и печеньем по акции.</p>
+                        </div>
+                    </div>
+                    <div class="action-card">
+                        <img src="./images/vegetables.jpg" alt="Сезон овощей">
+                        <div class="action-content">
+                            <h3>Сезон овощей</h3>
+                            <p>Свежие и сочные овощи по сниженной цене! Огурцы, помидоры, зелень и многое другое.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews-section">
+                <h2 class="reviews-title">Отзывы клиентов</h2>
+                <div class="reviews-slider-container">
+                    <div class="slider reviews-slider-track">
+                        <div class="review-slide">
+                            <p class="review-text">Очень довольна качеством продуктов и быстрой доставкой! Всё свежее и
+                                аккуратно упаковано.</p>
+                            <span class="review-author">Анастасия, Ташкент</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Отличный магазин! Часто беру здесь продукты для семьи. Радует выбор и
+                                акции.</p>
+                            <span class="review-author">Олег, Самарканд</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Приятно удивили цены и внимательное отношение. Спасибо, теперь только
+                                к вам!</p>
+                            <span class="review-author">Ирина, Бухара</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Часто заказываю онлайн — всё чётко, доставка вовремя. Удобный сайт!
+                            </p>
+                            <span class="review-author">Тимур, Нукус</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Качественная продукция и всегда в наличии нужные товары. Удобно, что
+                                есть оплата при получении.</p>
+                            <span class="review-author">Жанна, Андижан</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Магазин радует ассортиментом! Особенно понравилась свежесть фруктов и
+                                овощей.</p>
+                            <span class="review-author">Руслан, Фергана</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Очень вежливые курьеры, всё вовремя. Продукты приходят как с витрины!
+                            </p>
+                            <span class="review-author">Дина, Навои</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Сайт простой и понятный. Уже несколько раз делал заказ — всегда
+                                доволен.</p>
+                            <span class="review-author">Азамат, Ургенч</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Рекомендую всем! Отличный сервис и честные цены. Спасибо за вашу
+                                работу!</p>
+                            <span class="review-author">Лилия, Хива</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Очень довольна качеством продуктов и быстрой доставкой! Всё свежее и
+                                аккуратно упаковано.</p>
+                            <span class="review-author">Анастасия, Ташкент</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Отличный магазин! Часто беру здесь продукты для семьи. Радует выбор и
+                                акции.</p>
+                            <span class="review-author">Олег, Самарканд</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Приятно удивили цены и внимательное отношение. Спасибо, теперь только
+                                к вам!</p>
+                            <span class="review-author">Ирина, Бухара</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Часто заказываю онлайн — всё чётко, доставка вовремя. Удобный сайт!
+                            </p>
+                            <span class="review-author">Тимур, Нукус</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Качественная продукция и всегда в наличии нужные товары. Удобно, что
+                                есть оплата при получении.</p>
+                            <span class="review-author">Жанна, Андижан</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Магазин радует ассортиментом! Особенно понравилась свежесть фруктов и
+                                овощей.</p>
+                            <span class="review-author">Руслан, Фергана</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Очень вежливые курьеры, всё вовремя. Продукты приходят как с витрины!
+                            </p>
+                            <span class="review-author">Дина, Навои</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Сайт простой и понятный. Уже несколько раз делал заказ — всегда
+                                доволен.</p>
+                            <span class="review-author">Азамат, Ургенч</span>
+                        </div>
+                        <div class="review-slide">
+                            <p class="review-text">Рекомендую всем! Отличный сервис и честные цены. Спасибо за вашу
+                                работу!</p>
+                            <span class="review-author">Лилия, Хива</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="./images/icons/logo2.png" alt="Логотип" class="footer-logo">
+                <p class="footer-phrase">Ваши лучшие продукты каждый день!</p>
+            </div>
+            <div class="footer-center">
+                <p>Адрес: г. Ташкент 100084,<br>проспект Амира Темура 108</p>
+                <p>Телефон: +998 97 400 57 08</p>
+            </div>
+            <div class="footer-right">
+                <p>Мы в социальных сетях:</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./images/icons/icon-instagram.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://www.telegram.org" target="_blank">
+                        <img src="./images/icons/icon-telegram.png" alt="Telegram" class="social-icon">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="./images/icons/icon-facebook.png" alt="Facebook" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
