@@ -300,10 +300,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="purchase-date">Дата: ${purchase.date}</div>
                 <ul class="purchase-items">
                     ${purchase.items.map(item => `
-                        <li>${item.name} — ${item.count} шт. × ${item.price} = ${item.count * item.price} ₽</li>
+                        <li>${item.name} — ${item.count} шт. × ${item.price} = ${item.count * item.price} сум</li>
                     `).join('')}
                 </ul>
-                <div class="purchase-total">Общая стоимость: ${totalCost} ₽</div>
+                <div class="purchase-total">Общая стоимость: ${totalCost} сум</div>
             `;
                 purchaseList.appendChild(entry);
             });
